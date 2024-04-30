@@ -17,32 +17,19 @@ Aprender o básico sobre contribuição no GitHub.
 [![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
 
 ## Percurso
-<table>
-  <thead>
-    <tr align="left">
-      <th>Nº</th>
-      <th>Etapas</th>
-    </tr>
-  </thead>
-  <tbody align="left">
-    <tr>
-      <td>01</td>
-      <td>Introdução ao Lab</td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>Formas de Contribuir num Projeto Open Source</td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>Desenvolvendo e Enviando uma Contribuição</td>  
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>Dicas e Materiais de Apoio</td>    
-    </tr>
-  </tbody>
-</table>
+
+## Convenção de Commits
+
+| Tipo de Commit | Descrição                                                       | Exemplo                                            |
+| -------------- | --------------------------------------------------------------- | -------------------------------------------------- |
+| `feat`         | Adiciona uma nova funcionalidade ao projeto.                    | `feat: Adicionar autenticação por token JWT`      |
+| `fix`          | Corrige um bug ou problema no projeto.                          | `fix: Corrigir erro de validação no formulário`   |
+| `docs`         | Altera a documentação do projeto.                               | `docs: Atualizar guia de contribuição`            |
+| `style`        | Realiza mudanças na aparência, sem alterar a funcionalidade.    | `style: Atualizar estilos CSS`                    |
+| `refactor`     | Refatora o código sem alterar sua funcionalidade.                | `refactor: Simplificar lógica de autenticação`    |
+| `test`         | Adiciona ou modifica testes no projeto.                         | `test: Adicionar teste de unidade para UserService`  |
+| `chore`        | Realiza tarefas relacionadas à construção ou gerenciamento do projeto. | `chore: Atualizar dependências`                |
+
 
 ---
 ## Desafio de Projeto da DIO
